@@ -151,3 +151,17 @@ button:hover{
     color: rgb(76, 63, 248);
     transform: scale(1.2);
 }
+.icon-link3{
+    display: inline-block;
+    margin: 0 10px; /*circular lgana hai ya square */
+    font-size: 45px;
+    color: #fffafa; 
+    text-decoration: none;
+    transition: transform 0.3s ease, color 0.3s ease;    
+}
+
+.icon-link3:hover{
+    color: rgb(68, 63, 64);
+    transform: scale(1.2);
+}
+
