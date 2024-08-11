@@ -22,6 +22,7 @@ body {
     color: white;
     font-size: 40px;
     text-transform: capitalize;
+    margin-bottom: 30px;
 }
 
 .part1 {
@@ -40,13 +41,16 @@ body {
 input.name, input.password {
     width: 420px;
     padding: 12px 15px;
-    
+    margin-bottom:5% ;
     border-radius: 20px;
     border: none;
     background-color: rgba(255, 255, 255, 0.3);
     color: white;
     font-size: 16px;
     transition: background-color 0.3s ease;
+}
+.name{
+    margin-bottom: 5%;
 }
 
 input.name:focus, input.password:focus {
@@ -57,7 +61,7 @@ input.name:focus, input.password:focus {
 
 label {
     position: absolute;
-    top: 50%;
+    top: 32%;
     left: 15px;
     transform: translateY(-50%);
     color: white;
@@ -69,7 +73,7 @@ input:focus + label,
 input:not(:placeholder-shown) + label {
     top: 0;
     transform: translateY(-100%);
-    font-size: 12px;
+    font-size: 15px;
     color: #fffafa;
 }
 
@@ -78,20 +82,20 @@ input:not(:placeholder-shown) + label {
 }
 
 button {
-    width: 100%;
+    width: 450px;
     padding: 12px;
     border-radius: 20px;
     border: none;
-    background-color: rgba(255, 255, 255, 0.322);
-    color: white;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: rgb(0, 0, 0);
     font-size: 20px;
     text-transform: capitalize;
     transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 button:hover {
-    background-color: #ffffff91;
-    box-shadow: 0 0 10px white;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 0 10px rgb(255, 255, 255);
     transform: scale(1.05);
 }
 
@@ -139,11 +143,11 @@ button:hover {
     transform: scale(1.2);
 }
 .icon-link1:hover{
-    color: red;
+    color: #f33434;
 }
 .icon-link2:hover{
-    color: rgb(0, 26, 255);
+    color: #1a5fdf;
 }
 .icon-link3:hover{
-    color: rgb(12, 12, 15);
+    color: rgb(34, 34, 39);
 }
